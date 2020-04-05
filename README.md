@@ -3,6 +3,8 @@
 This C/C++ code illustrates how we might do a multiword multiplication backward,
 starting from the most significant words.
 
+Blog post: [Multiplying backward for profit](https://lemire.me/blog/2020/04/05/multiplying-backward-for-profit/).
+
 To do the full computation the usual way, use the following function:
 
 ```c++
@@ -34,3 +36,11 @@ size_t multiplication_backward_limit(uint64_t w, const uint64_t *b, size_t n,
 ## Requirements
 
 - Modern C++ compiler
+
+## Usage
+
+There is a single header. You can run tests with `make && make test`.
+
+## Credit
+
+This work is inspired by notes and code from Micheal Eisel.
