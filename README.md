@@ -41,6 +41,4 @@ size_t multiplication_backward_limit(uint64_t w, const uint64_t *b, size_t n,
 
 There is a single header. You can run tests with `make && make test`.
 
-## Credit
 
-This work is inspired by notes and code from Micheal Eisel.
